@@ -18,7 +18,7 @@ function Detail() {
       .catch((err) => {
         console.log(err.message);
       });
-  }, [empid]);
+  }, [empid]); 
 
   return (
     <div className="main">
